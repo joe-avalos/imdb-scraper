@@ -40,7 +40,7 @@ router.get("/search-hash", (req, res) => {
   res.send(response);
 });
 
-router.get("/search-object", (req, res) => {
+router.get("/search", (req, res) => {
   const searchTermsPath = path.join(global.APP_ROOT, "data/searchTerms.json");
   if (!existsSync(searchTermsPath)) {
     res

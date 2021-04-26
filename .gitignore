@@ -1,5 +1,5 @@
 node_modules
-src/data
-src/html
+src/data/*
+src/html/*
 
 .idea

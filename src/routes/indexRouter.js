@@ -30,7 +30,7 @@ router.get("/search-hash", (req, res) => {
     res
       .status(400)
       .send(
-        "Please run scraper before searching for movies. (/remotely/data-scrape)"
+        "Please run scraper before searching for movies. (/imdb-scraper/data-scrape)"
       );
   }
   const {
@@ -46,7 +46,7 @@ router.get("/search-object", (req, res) => {
     res
       .status(400)
       .send(
-        "Please run scraper before searching for movies. (url: /remotely/data-scrape)"
+        "Please run scraper before searching for movies. (url: /imdb-scraper/data-scrape)"
       );
   }
   const {

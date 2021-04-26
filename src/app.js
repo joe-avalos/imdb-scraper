@@ -6,6 +6,6 @@ const { indexRouter } = require("./routes/indexRouter");
 global.APP_ROOT = path.resolve(__dirname);
 const app = express();
 
-app.use("/remotely", indexRouter);
+app.use("/imdb-scraper", indexRouter);
 
 module.exports = { app };
